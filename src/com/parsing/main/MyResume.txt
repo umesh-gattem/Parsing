@@ -1,0 +1,88 @@
+UMESH KUMAR GATTEM
+
+
+Phone:
++91 8500189645
+umesh.gattem@gmail.com
+ 
+Career Objective:	
+To work in a challenging atmosphere by contributing my skills for the company with utmost sincerity. Passionate to work in a reputed company, where I will get chance to enhance the reliability of systems and processes throughout the enterprise.
+Academic Details:
+Qualification	University	Institution	Year	Score
+Bachelor of Technology	Andhra University	Anil Neerukonda Institute Of Technology and Sciences	2012-2016	8.01(points)
+Intermediate	Board of Intermediate	Chaitanya Junior College	2010-2012	92%
+SSC(10th)	Board of Secondary Education	Gowthami Talent High School	2009-2010	90%
+
+Skills:
+
+Development IDE: Eclipse
+Databases: MySQL, Oracle
+Programming Languages: Java, C, C++, Data Structures
+Script: JavaScript
+
+Projects:
+
+Android Application Development
+
+Title : Anits College Application 
+Role: Lead
+Team Size: 4
+Responsibilities:
+•	Gathering requirements for developing application from college database admin.
+•	Setting up infrastructure in machines, java 1.7, MySQL, android eclipse, sqlyog.
+•	Designing screens, (Simple screens, not used any extensive designs)
+•	Implementing backend logic.
+Duration: 6 weeks
+
+
+Database Management System
+
+Title: 2015 World Cup Database
+Role: Team lead &Developer
+Team Size: 3
+Responsibilities:
+•	Gathering requirements for developing application from guide.
+•	Setting up infrastructure in machines, java 1.7, MySQL, eclipse, sqlyog.
+•	Gathering database from espncricinfo and crickbuzz.com. (Took my brother’s help in parsing data from those sites)
+Duration: 1 month
+
+
+Cloud Computing
+
+Title: Survey on Live Migration of  Virtual Machine
+Role: Team lead &Developer
+Team Size: 4
+Responsibilities:
+•	Gathering requirements for developing application from guide.
+•	Setting up infrastructure in machines Cloud Sim, VMWARE
+Duration: 6 months
+
+
+Achievements:
+•	Awarded 2ndprize in “Maths Olympiad” conducted in school level.
+•	Achieved 3rd position in “Coding Exam (Code drift)”conducted in college level.
+
+Extra-Curricular Activities:
+•	Presented papers on WEB TECHNOLOGY.
+•	Attended Non-Technical workshops on SOFT COMPUTING AND ITS ENGINEERING APPLICATIONS,SRISHTI MOBILE MAKING workshop
+•	Active member of CSI.
+
+Strengths:
+•	Elegant team player.
+•	Leadership.
+•	Quick learner
+•	Logical thinking.
+
+Personal Details:
+
+Name: Umesh Kumar Gattem
+Father: G Venkata Ramana, working in Govt. Health Department.
+Mother: G Sujata, Housewife
+Brothers & Sister: One elder brother, working in Razorthink software Inc. Livermore, CA.
+Languages Known: Telugu, English and Hindi
+Address:  Flat no: 101,Seethal towers, Thotapalem, Vizianagaram 535001. Andhra Pradesh India
+Skype Name: umesh kumar
+Hobbies: Listening songs, watching adventure movies, solving puzzles. 
+									
+  Place:                                                                                                                      
+  Date:                                                                                               Umesh Kumar Gattem
