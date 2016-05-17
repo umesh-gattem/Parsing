@@ -1,25 +1,42 @@
 package com.parsing.utility;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FileReadAndWrite {
-	public static File FileRead(File fileName) throws Exception {
+	/**
+	 * Here is the declaration of File Read . Here whole text document is read
+	 * and they are splitted in to individual lines
+	 * 
+	 * @param fileName
+	 * @return
+	 * @throws Exception
+	 * @author Umesh Kumar Gattem
+	 * 
+	 */
 
-		File Resume = new File("C:/Users/toshiba/Documents/MyResume.txt");
-
+	public static List<String> fileRead(String fileName) throws Exception {
+		BufferedReader br = null;
+		List<String> res = new ArrayList<>();
 		try {
-			FileReader fileReader = new FileReader(Resume);
-			BufferedReader bufferedReader = new BufferedReader(fileReader);
-			bufferedReader.close();
-		} catch (FileNotFoundException ex) {
-			System.out.println("Unable to open file '" + Resume + "'");
-		} catch (IOException ex) {
-			System.out.println("Error reading file '" + Resume + "'");
+			String sCurrentLine;
+			br = new BufferedReader(new FileReader(fileName));
+			while ((sCurrentLine = br.readLine()) != null) {
+				res.add(sCurrentLine);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (br != null)
+					br.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
 		}
-		return Resume;
+		return res;
 	}
 }
