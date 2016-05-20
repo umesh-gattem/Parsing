@@ -2,12 +2,19 @@ package com.parsing.main;
 
 import java.util.HashMap;
 import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 import com.parsing.main.EmailIdParser;
 import com.parsing.main.Parser;
 import com.parsing.main.PhoneNumberParser;
 import com.parsing.utility.FileReadAndWrite;
 
 public class MainParsing {
+	
+	private static  Logger LOGGER = Logger.getLogger(MainParsing.class);
+
 	/**
 	 * Here is the declaration of Main Parsing. It takes the File path as a
 	 * argument. It creates the Abstract Class Parser and two inheritance class
@@ -20,6 +27,7 @@ public class MainParsing {
 	 * @author Umesh Kumar Gattem
 	 */
 	public static void main(String a[]) {
+	//	PropertyConfigurator.configure("log4j.properties");
 
 		HashMap<String, List<String>> response = new HashMap<>();
 		if (a.length < 0) {
@@ -29,6 +37,9 @@ public class MainParsing {
 
 		if (a[0] != null) {
 			try {
+				
+				LOGGER.info("hai hai hai hai");
+				
 				List<String> lines = FileReadAndWrite.fileRead(a[0]);
 
 				Parser emailParser = new EmailIdParser(lines);
